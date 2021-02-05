@@ -26,7 +26,7 @@ function Demo(props){
             <EditableField 
               defaultValue={person[prop]} 
               renderer={({defaultValue,startEditing})=><span onClick={startEditing}>{defaultValue}</span>} 
-              editor={({defaultValue, fireValueChange})=><input onChange={(e)=>fireValueChange(e,e.target.value)} onMouseEnter={(e)=>e.target.select()} defaultValue={defaultValue} size={String.valueOf(defaultValue||'').length+3}/>} 
+              editor={({defaultValue, fireValueChange})=><input onChange={(e)=>fireValueChange(e,e.target.value)} onMouseEnter={(e)=>e.target.select()} defaultValue={defaultValue} size={(defaultValue+'').length+3}/>} 
               onChange={(newValue)=>console.log(j,newValue)}/>
             </td>)}
           )}
