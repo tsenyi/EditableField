@@ -1,6 +1,9 @@
 # EditableField
 Make a displaying field editable.
 
+## Demo
+View [demo on stackblitz](https://stackblitz.com/github/tsenyi/EditableField)
+
 ## Usage
 ### Basic
 ```jsx
