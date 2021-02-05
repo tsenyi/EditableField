@@ -2,6 +2,7 @@
   "name": "EditableField",
   "version": "1.0.1",
   "private": false,
+  "license": "MIT",
   "dependencies": {
     "react": "17.0.0",
     "react-dom": "17.0.0",
@@ -16,5 +17,17 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
